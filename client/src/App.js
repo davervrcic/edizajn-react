@@ -1,30 +1,12 @@
 import React, {useState, useEffect, Component} from "react";
+import FileUpload from "./components/FileUpload";
 import './App.css';
 import Axios from "axios";
 
 
-function App() {
+const App = () => {
 
-  class imageUpload extends Component {
-
-    state = {
-      file: null
-    }
-
-    
-    handleFile(e){
-
-      let file = e.target.files[0]
-     
-      this.setState({file: file});
-
-      }
-      
-    handleUpload(e){
-      console.log(this.state, "THE STATE ----------- $$$$");
-    }
-
-  }
+  
 
   const [projectName, setProjectName] = useState();
   const [projectYear, setProjectYear] = useState();
@@ -63,13 +45,16 @@ function App() {
     setNewProject("");
   };**/
 
-  
+
 
 
   return (
 
+  
+
     
     <div className="App">
+
       <h1>ADD PROJECT</h1>
       <div className="form">
         <label>Project Name:</label>
@@ -102,11 +87,15 @@ function App() {
 
         }}></input>
 
-        <input type="file" name="file" onChange={(e) => {imageUpload.handleFile(e)}}/>
+  <div className="container mt-4">
+          <h4 className="display-4 text-center mb-4">
+            <i className="fab fa-react"/>Image upload
+         </h4>
 
-        <button type="button" onClick={(e) => {imageUpload.handleUpload(e)}}>Upload</button>
+         <FileUpload/>
+  </div>
 
-
+        
 
         <button onClick={submitProject}>Submit</button>
 
@@ -133,6 +122,6 @@ function App() {
       </div>
     </div>
   );
-}
+      }
 
 export default App;
