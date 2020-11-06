@@ -1,12 +1,9 @@
-import React, {useState, useEffect, Component} from "react";
+import React, {useState, useEffect,} from "react";
 import FileUpload from "./components/FileUpload";
 import './App.css';
 import Axios from "axios";
 
-
-const App = () => {
-
-  
+const App = () => {  
 
   const [projectName, setProjectName] = useState();
   const [projectYear, setProjectYear] = useState();
@@ -15,13 +12,7 @@ const App = () => {
   const [projectImage, setProjectImage] = useState();
   const [projectsList, setProjectsList] = useState([]);
 
-  /**const [newProjectName, setNewProject] = useState("");
-  const [newProjectYear, setNewYear] = useState("");
-  const [newProjectUrl, setNewUrl] = useState("");
-  const [newProjectType, setNewType] = useState("");
-  const [newProjectImage, setNewImage] = useState("");**/
-
-   useEffect(() => {
+  useEffect(() => {
     Axios.get("http://localhost:3001/api/get").then((response)=> {
       setProjectsList(response.data)
     });
@@ -38,19 +29,7 @@ const App = () => {
     Axios.delete(`http://localhost:3001/api/delete/${project}`);
   };
 
-  /**const updateProject = (project) => {
-    Axios.put("http://localhost:3001/api/update", 
-    {projectName: project, projectYear: newProjectYear, projectUrl: newProjectUrl, projectType: newProjectType, projectImage: newProjectImage});
-
-    setNewProject("");
-  };**/
-
-
-
-
-  return (
-
-  
+ return (
 
     
     <div className="App">
@@ -87,6 +66,7 @@ const App = () => {
 
         }}></input>
 
+
   <div className="container mt-4">
           <h4 className="display-4 text-center mb-4">
             <i className="fab fa-react"/>Image upload
@@ -109,12 +89,7 @@ const App = () => {
               <p>{val.projectImage}</p>   
 
               <button onClick={() => {deleteProject(val.projectName)}}>Delete</button>
-
-
-              <input type="text" id="updateInput" /**onChange={(e) => {
-                  setNewProject(e.target.value)}}**/></input>
-
-              <button /**onClick={() => {updateProject(val.projectName)}}**/>Update</button>     
+                 
             </div>
 
           )

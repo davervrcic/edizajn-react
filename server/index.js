@@ -10,7 +10,6 @@ const db = mysql.createPool({
     user: "daver",
     password:"Infodax123***",
     database: "projectsdb",
-
 });
 
 app.use(cors());
@@ -28,14 +27,14 @@ app.get("/api/get", (req,res)=> {
     });
 
 
-app.post("/api/upload", (req,res)=> {
+app.post('/api/upload', (req,res)=> {
     if(req.files === null) {
         return res.status(400).json({msg: 'no file uploaded'});
     }
 
     const file = req.files.file;
 
-    file.mv(`$(__dirname)/client/public/uploads/$(file.name)`, err => {
+    file.mv(`./uploads/${file.name}`, err => {
         if(err) {
             console.error(err);
             return res.status(500).send(err);
