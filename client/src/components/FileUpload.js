@@ -1,5 +1,7 @@
 import React, { Fragment, useState } from 'react';
 import axios from 'axios';
+import Message from './Message';
+import Progress from './Progress';
 
 const FileUpload = () => {
 
@@ -7,6 +9,7 @@ const FileUpload = () => {
     const [filename, setFilename] = useState('Choose file');
     const [uploadedFile, setUploadedFile] = useState({});
     const [message, setMessage] = useState('');
+    const [uploadPercentage, setUploadPercentage] = useState(0);
     
 
     const onChange = e => {
@@ -23,7 +26,16 @@ const FileUpload = () => {
             const res = await axios.post('http://localhost:3001/api/upload', formData, {
                 headers: {
                     'Content-type': 'multipart/form-data'
+                },
+                onUploadProgress: progressEvent => {
+                    setUploadPercentage(parseInt(Math.round((progressEvent.loaded * 100) / progressEvent.total)));
+
+                    // Clear Percentage
+                setTimeout(() => setUploadPercentage(0), 10000);
+
                 }
+
+                
             });
 
             const {fileName, filePath} = res.data;
@@ -34,9 +46,9 @@ const FileUpload = () => {
 
         } catch(err) {
             if (err.response.status === 500) {
-                console.log("problem with a server");
+                setMessage("problem with a server");
             } else {
-                console.log(err.response.data.msg);
+                setMessage(err.response.data.msg);
             }
         }
 
@@ -45,13 +57,16 @@ const FileUpload = () => {
     
     return (
         <Fragment>
+            {message ? <Message msg={message} /> : null}
             <form onSubmit={onSubmit}>
                      <div className="custom-file mb-4">
                         <input type="file" className="custom-file-input" id="customFile" onChange={onChange}/>
                         <label className="custom-file-label" htmlFor="customFile">{filename}</label>
                         
                     </div>
-                   
+
+                    <Progress percentage={uploadPercentage} />
+
                     <input type="submit" value="upload" className="btn btn-primary btn-block mt-4"></input>
             </form>
 
