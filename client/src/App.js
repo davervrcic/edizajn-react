@@ -69,7 +69,7 @@ const App = () => {
 
   <div className="container mt-4">
           <h4 className="display-4 text-center mb-4">
-            <i className="fab fa-react"/>Image upload
+            Image upload
          </h4>
 
          <FileUpload/>
@@ -77,7 +77,7 @@ const App = () => {
 
         
 
-        <button onClick={submitProject}>Submit</button>
+  <button onClick={submitProject}>Submit</button>
 
         {projectsList.map((val)=> {
           return (
