@@ -9,8 +9,9 @@ const Progress = ({ percentage }) => {
             role="progressbar" 
             style={{width: `${percentage}%`}}
             
-            />
-            {percentage}%
+            >{percentage}%
+                </div>
+            
         
       </div>
     );
