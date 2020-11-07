@@ -33,9 +33,7 @@ const FileUpload = () => {
                     // Clear Percentage
                 setTimeout(() => setUploadPercentage(0), 10000);
 
-                }
-
-                
+                }                
             });
 
             const {fileName, filePath} = res.data;
@@ -53,29 +51,30 @@ const FileUpload = () => {
         }
 
     };
-
     
     return (
         <Fragment>
+            
             {message ? <Message msg={message} /> : null}
-            <form onSubmit={onSubmit}>
+            <form onSubmit={onSubmit} style={{borderWidth: '2'}}>
                      <div className="custom-file mb-4">
                         <input type="file" className="custom-file-input" id="customFile" onChange={onChange}/>
-                        <label className="custom-file-label" htmlFor="customFile">{filename}</label>
-                        
+                        <label className="custom-file-label" htmlFor="customFile">{filename}</label>                        
                     </div>
 
                     <Progress percentage={uploadPercentage} />
 
-                    <input type="submit" value="upload" className="btn btn-primary btn-block mt-4"></input>
+                    <input type="submit" value="upload" className="btn btn-primary mt-5" style={{width: '50%'}}></input>
             </form>
 
-            {uploadedFile ? ( <div className="row mt-5">
+            {/* SHOW UPLOADED IMAGE */}
+
+           {/* {uploadedFile ? ( <div className="row mt-5">
                 <div className="col-md-6 m-auto">
                 <h3 className="text-center">{ uploadedFile.fileName}</h3>
                 <img style={{ width: '100%' }} src= { uploadedFile.filePath } alt=''/>
                 </div>
-            </div> ): null}
+    </div> ): null} */}            
             
         </Fragment>
     )

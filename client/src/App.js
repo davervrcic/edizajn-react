@@ -68,16 +68,14 @@ const App = () => {
 
 
   <div className="container mt-4">
-          <h4 className="display-4 text-center mb-4">
+          <h4 className="display-6 text-center mb-4">
             Image upload
          </h4>
 
          <FileUpload/>
-  </div>
+  </div>        
 
-        
-
-  <button onClick={submitProject}>Submit</button>
+  <button className="btn btn-primary btn-block m-5" onClick={submitProject} style={{width: '50%'}}>Submit Project</button>
 
         {projectsList.map((val)=> {
           return (
