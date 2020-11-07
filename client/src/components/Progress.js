@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 const Progress = ({ percentage }) => {
     return (
-        <div className="progress">
+        <div className="progress mb-1">
         <div 
             className="progress-bar progress-bar-striped bg-success" 
             role="progressbar" 

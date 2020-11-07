@@ -34,7 +34,7 @@ const App = () => {
     
     <div className="App">
 
-      <h1>ADD PROJECT</h1>
+      <h3>ADD PROJECT</h3>
       <div className="form">
         <label>Project Name:</label>
         <input type="text" name="projectName" onChange={(e)=> {
@@ -67,7 +67,7 @@ const App = () => {
         }}></input>
 
 
-  <div className="container mt-4">
+  <div className="container mt-3">
           <h4 className="display-6 text-center mb-4">
             Image upload
          </h4>
@@ -75,7 +75,7 @@ const App = () => {
          <FileUpload/>
   </div>        
 
-  <button className="btn btn-primary btn-block m-5" onClick={submitProject} style={{width: '50%'}}>Submit Project</button>
+  <button className="btn btn-success btn-block m-2" onClick={submitProject} style={{width: '50%'}}>Add Project</button>
 
         {projectsList.map((val)=> {
           return (

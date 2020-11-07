@@ -55,16 +55,18 @@ const FileUpload = () => {
     return (
         <Fragment>
             
-            {message ? <Message msg={message} /> : null}
-            <form onSubmit={onSubmit} style={{borderWidth: '2'}}>
+            
+            <form onSubmit={onSubmit} >
                      <div className="custom-file mb-4">
                         <input type="file" className="custom-file-input" id="customFile" onChange={onChange}/>
                         <label className="custom-file-label" htmlFor="customFile">{filename}</label>                        
                     </div>
 
-                    <Progress percentage={uploadPercentage} />
+                    <Progress percentage={uploadPercentage}/>
 
-                    <input type="submit" value="upload" className="btn btn-primary mt-5" style={{width: '50%'}}></input>
+                    {message ? <Message msg={message}/> : null}
+
+                    <input type="submit" value="Upload File" className="btn btn-primary mt-1" style={{width: '50%'}}></input>
             </form>
 
             {/* SHOW UPLOADED IMAGE */}
