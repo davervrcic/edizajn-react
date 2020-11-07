@@ -11,9 +11,11 @@
 
 .form input {
   width: 300px;
-  height: 40px;
-  margin: 10px;
+  height: 35px;
+  margin: 5px;
 }
+
+
 
 .card {
   width: 500px;

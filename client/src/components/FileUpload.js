@@ -54,8 +54,7 @@ const FileUpload = () => {
     
     return (
         <Fragment>
-            
-            
+                         
             <form onSubmit={onSubmit} >
                      <div className="custom-file mb-4">
                         <input type="file" className="custom-file-input" id="customFile" onChange={onChange}/>
