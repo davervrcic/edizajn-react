@@ -91,7 +91,7 @@ const App = () => {
           }}
         ></input>
 
-        <div className="border border-primary rounded">
+        <div className="border border-primary rounded col-md-6">
           <div className="container p-4">
             <h4 className="display-6 text-center mb-4">Image upload</h4>
 
