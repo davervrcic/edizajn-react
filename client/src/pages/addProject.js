@@ -3,6 +3,7 @@ import FileUpload from "../components/FileUpload";
 import "../App.css";
 import Axios from "axios";
 
+
 const AddProject = () => {
   const [projectName, setProjectName] = useState();
   const [projectYear, setProjectYear] = useState();
@@ -43,7 +44,9 @@ const AddProject = () => {
   };
 
   return (
-    <div className="App">
+
+        <div className="App">
+          
       <h3>ADD PROJECT</h3>
       <div className="form">
         <label>Project Name:</label>
@@ -82,14 +85,14 @@ const AddProject = () => {
           }}
         ></input>
 
-        <label>Project Image:</label>
+        {/*<label>Project Image:</label>
         <input
           type="text"
           name="projectImage"
           onChange={(e) => {
             setProjectImage(e.target.value);
           }}
-        ></input>
+        ></input>*/}
 
         <div className="border border-primary rounded col-md-6">
           <div className="container p-4">

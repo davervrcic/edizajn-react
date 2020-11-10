@@ -2,6 +2,7 @@ import React, { Fragment, useState } from 'react';
 import axios from 'axios';
 import Message from './Message';
 import Progress from './Progress';
+import CreateProject from './CreateProject';
 
 const FileUpload = () => {
 
@@ -53,7 +54,12 @@ const FileUpload = () => {
     };
     
     return (
+
+       
+
         <Fragment>
+
+       
                          
             <form onSubmit={onSubmit} >
                      <div className="custom-file mb-4">
@@ -75,7 +81,7 @@ const FileUpload = () => {
                 <h3 className="text-center">{ uploadedFile.fileName}</h3>
                 <img style={{ width: '100%' }} src= { uploadedFile.filePath } alt=''/>
                 </div>
-    </div> ): null} */}            
+    </div> ): null} */}               
             
         </Fragment>
     )
