@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import CreateProject from '../components/CreateProject';
 
 
 class Work extends Component {
@@ -375,6 +376,12 @@ class Work extends Component {
                     <p>Complete Development</p>
                   </a>
                 </div>
+
+              <div>
+              <CreateProject />
+              </div>
+              
+
               </article>
             </section>
             <section id="contact">
