@@ -21,7 +21,7 @@ const MainPage = () => {
   <header>
     <div className="left">
       <div className="border" />
-      <a className="logo" href="https://www.e-dizajn.com"><img src="graphic/logo.svg" /></a>
+      <a className="logo" href="https://www.e-dizajn.com"><img src="graphic/logo.svg" alt=""/></a>
       <div className="logo-label">
         <div className="logo-label-inner">e-dizajn studio</div>
       </div>
@@ -124,7 +124,7 @@ const MainPage = () => {
           <div className="dot top right" />
           <div className="dot bottom left" />
           <div className="dot bottom right" />
-          <a className="ref" href="http://www.mateyaneira.com/" target="_blank" style={{backgroundImage: 'url("media/work/mateyaneira.jpg")'}}>
+          <a className="ref" href="http://www.mateyaneira.com/" target="_blank" rel='noreferrer noopener' style={{backgroundImage: 'url("media/work/mateyaneira.jpg")'}}>
             <div className="h1-label w10-6">year 2020</div>
             <h3>Mateya Neira</h3>
             <p>Complete development</p>
@@ -135,7 +135,7 @@ const MainPage = () => {
           <div className="dot top right" />
           <div className="dot bottom left" />
           <div className="dot bottom right" />
-          <a className="ref" href="http://www.markofeher.co.uk/" target="_blank" style={{backgroundImage: 'url("media/work/markofeher.JPG")'}}>
+          <a className="ref" href="http://www.markofeher.co.uk/" target="_blank" rel='noreferrer noopener' style={{backgroundImage: 'url("media/work/markofeher.JPG")'}}>
             <div className="h1-label w10-6">year 2020</div>
             <h3>Marko Feher</h3>
             <p>Complete development</p>
@@ -294,8 +294,8 @@ const MainPage = () => {
       <div className="circle" />
       <div className="sites">
         <ul className="right">
-          <li><a href="https://www.instagram.com/edizajnstudio/" target="_blank"></a></li>
-          <li><a href="https://www.facebook.com/edizajnstudio/" target="_blank">龜</a></li>
+          <li><a href="https://www.instagram.com/edizajnstudio/" target="_blank" rel='noreferrer noopener'></a></li>
+          <li><a href="https://www.facebook.com/edizajnstudio/" target="_blank" rel='noreferrer noopener'>龜</a></li>
           {/*<li><a href="https://dribbble.com/" target="_blank">&#xeaa7;</a></li>
           <li><a href="https://www.behance.net/" target="_blank">&#xbeac;</a></li>*/}
         </ul>

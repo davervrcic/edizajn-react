@@ -11,7 +11,7 @@ class Work extends Component {
           <header>
             <div className="left">
               <div className="border" />
-              <a className="logo" href="https://www.e-dizajn.com"><img src="graphic/logo.png" /></a>
+              <a className="logo" href="https://www.e-dizajn.com"><img src="graphic/logo.png" alt="" /></a>
               <div className="logo-label">
                 <div className="logo-label-inner">e-dizajn studio</div>
               </div>
@@ -50,7 +50,7 @@ class Work extends Component {
                   <div className="dot top right" />
                   <div className="dot bottom left" />
                   <div className="dot bottom right" />
-                  <a className="ref" href="https://mateyaneira.com/" target="_blank" style={{backgroundImage: 'url("media/work/mateyaneira.jpg")'}}>
+                  <a className="ref" href="https://mateyaneira.com/" target="_blank" rel='noreferrer noopener' style={{backgroundImage: 'url("media/work/mateyaneira.jpg")'}}>
                     <div className="h1-label w10-6">year 2020</div>
                     <h3>Mateya Neira</h3>
                     <p>Complete development</p>
@@ -61,7 +61,7 @@ class Work extends Component {
                   <div className="dot top right" />
                   <div className="dot bottom left" />
                   <div className="dot bottom right" />
-                  <a className="ref" href="https://markofeher.co.uk/" target="_blank" style={{backgroundImage: 'url("media/work/markofeher.JPG")'}}>
+                  <a className="ref" href="https://markofeher.co.uk/" target="_blank" rel='noreferrer noopener' style={{backgroundImage: 'url("media/work/markofeher.JPG")'}}>
                     <div className="h1-label w10-6">year 2020</div>
                     <h3>Marko Feher</h3>
                     <p>Complete development</p>
@@ -72,7 +72,7 @@ class Work extends Component {
                   <div className="dot top right" />
                   <div className="dot bottom left" />
                   <div className="dot bottom right" />
-                  <a className="ref" href="https://archit.rs/" target="_blank" style={{backgroundImage: 'url("media/work/jelena.JPG")'}}>
+                  <a className="ref" href="https://archit.rs/" target="_blank" rel='noreferrer noopener' style={{backgroundImage: 'url("media/work/jelena.JPG")'}}>
                     <div className="h1-label w10-6">year 2020</div>
                     <h3>Studio Archit</h3>
                     <p>Complete Development</p>
@@ -83,7 +83,7 @@ class Work extends Component {
                   <div className="dot top right" />
                   <div className="dot bottom left" />
                   <div className="dot bottom right" />
-                  <a className="ref" href="https://datravel.ba" target="_blank" style={{backgroundImage: 'url("media/work/datravel.jpg")'}}>
+                  <a className="ref" href="https://datravel.ba" target="_blank" rel='noreferrer noopener' style={{backgroundImage: 'url("media/work/datravel.jpg")'}}>
                     <div className="h1-label w10-6">year 2018</div>
                     <h3>D&amp;A Travel</h3>
                     <p>Complete development</p>
@@ -94,7 +94,7 @@ class Work extends Component {
                   <div className="dot top right" />
                   <div className="dot bottom left" />
                   <div className="dot bottom right" />
-                  <a className="ref" href="http://harisdubica.ch/" target="_blank" style={{backgroundImage: 'url("media/work/manufaktura.JPG")'}}>
+                  <a className="ref" href="http://harisdubica.ch/" target="_blank" rel='noreferrer noopener' style={{backgroundImage: 'url("media/work/manufaktura.JPG")'}}>
                     <div className="h1-label w10-6">year 2020</div>
                     <h3>Manufaktura</h3>
                     <p>Complete Development</p>
@@ -105,7 +105,7 @@ class Work extends Component {
                   <div className="dot top right" />
                   <div className="dot bottom left" />
                   <div className="dot bottom right" />
-                  <a className="ref" href="https://cocopat.de/" target="_blank" style={{backgroundImage: 'url("media/work/cocopat.jpg")'}}>
+                  <a className="ref" href="https://cocopat.de/" target="_blank" rel='noreferrer noopener' style={{backgroundImage: 'url("media/work/cocopat.jpg")'}}>
                     <div className="h1-label w10-6">year 2020</div>
                     <h3>Cocopat</h3>
                     <p>Web design &amp; Graphic design</p>
@@ -116,7 +116,7 @@ class Work extends Component {
                   <div className="dot top right" />
                   <div className="dot bottom left" />
                   <div className="dot bottom right" />
-                  <a className="ref" href="https://belevasion.fr/" target="_blank" style={{backgroundImage: 'url("media/work/bel.jpg")'}}>
+                  <a className="ref" href="https://belevasion.fr/" target="_blank" rel='noreferrer noopener' style={{backgroundImage: 'url("media/work/bel.jpg")'}}>
                     <div className="h1-label w10-6">year 2020</div>
                     <h3>Bel’Evasion</h3>
                     <p>Web design &amp; Graphic design</p>
@@ -127,7 +127,7 @@ class Work extends Component {
                   <div className="dot top right" />
                   <div className="dot bottom left" />
                   <div className="dot bottom right" />
-                  <a className="ref" href="https://lissagenaturebeaute.com/" target="_blank" style={{backgroundImage: 'url("media/work/natureeva.jpg")'}}>
+                  <a className="ref" href="https://lissagenaturebeaute.com/" target="_blank" rel='noreferrer noopener' style={{backgroundImage: 'url("media/work/natureeva.jpg")'}}>
                     <div className="h1-label w10-6">year 2020</div>
                     <h3>Nature Eva</h3>
                     <p>Web design &amp; Graphic design</p>
@@ -138,7 +138,7 @@ class Work extends Component {
                   <div className="dot top right" />
                   <div className="dot bottom left" />
                   <div className="dot bottom right" />
-                  <a className="ref" href="https://restaurant-italien-aixlesbains.com/" target="_blank" style={{backgroundImage: 'url("media/work/amodomio.jpg")'}}>
+                  <a className="ref" href="https://restaurant-italien-aixlesbains.com/" target="_blank" rel='noreferrer noopener' style={{backgroundImage: 'url("media/work/amodomio.jpg")'}}>
                     <div className="h1-label w10-6">year 2019</div>
                     <h3>A Modo Mio</h3>
                     <p>Web design &amp; Graphic design</p>
@@ -149,7 +149,7 @@ class Work extends Component {
                   <div className="dot top right" />
                   <div className="dot bottom left" />
                   <div className="dot bottom right" />
-                  <a className="ref" href="https://materiel-coiffure-pro.com/" target="_blank" style={{backgroundImage: 'url("media/work/beautepro.jpg")'}}>
+                  <a className="ref" href="https://materiel-coiffure-pro.com/" target="_blank" rel='noreferrer noopener' style={{backgroundImage: 'url("media/work/beautepro.jpg")'}}>
                     <div className="h1-label w10-6">year 2020</div>
                     <h3>Beaute PRO</h3>
                     <p>Web design &amp; Graphic design</p>
@@ -160,7 +160,7 @@ class Work extends Component {
                   <div className="dot top right" />
                   <div className="dot bottom left" />
                   <div className="dot bottom right" />
-                  <a className="ref" href="https://facadier-annecy.com/" target="_blank" style={{backgroundImage: 'url("media/work/facade.JPG")'}}>
+                  <a className="ref" href="https://facadier-annecy.com/" target="_blank" rel='noreferrer noopener' style={{backgroundImage: 'url("media/work/facade.JPG")'}}>
                     <div className="h1-label w10-6">year 2020</div>
                     <h3>AA Team Façade</h3>
                     <p>Web design &amp; Graphic design</p>
@@ -171,7 +171,7 @@ class Work extends Component {
                   <div className="dot top right" />
                   <div className="dot bottom left" />
                   <div className="dot bottom right" />
-                  <a className="ref" href="https://marketi-iko.com/" target="_blank" style={{backgroundImage: 'url("media/work/iko.jpg")'}}>
+                  <a className="ref" href="https://marketi-iko.com/" target="_blank" rel='noreferrer noopener' style={{backgroundImage: 'url("media/work/iko.jpg")'}}>
                     <div className="h1-label w10-6">year 2020</div>
                     <h3>Marketi Iko</h3>
                     <p>Web design &amp; Graphic design</p>
@@ -182,7 +182,7 @@ class Work extends Component {
                   <div className="dot top right" />
                   <div className="dot bottom left" />
                   <div className="dot bottom right" />
-                  <a className="ref" href="https://centre-esthetique-geneve.com/" target="_blank" style={{backgroundImage: 'url("media/work/onaturel.jpg")'}}>
+                  <a className="ref" href="https://centre-esthetique-geneve.com/" target="_blank" rel='noreferrer noopener' style={{backgroundImage: 'url("media/work/onaturel.jpg")'}}>
                     <div className="h1-label w10-6">year 2020</div>
                     <h3>O’naturel</h3>
                     <p>Web design &amp; Graphic design</p>
@@ -193,7 +193,7 @@ class Work extends Component {
                   <div className="dot top right" />
                   <div className="dot bottom left" />
                   <div className="dot bottom right" />
-                  <a className="ref" href="https://hyalfit.ba" target="_blank" style={{backgroundImage: 'url("media/work/hyalfit.jpg")'}}>
+                  <a className="ref" href="https://hyalfit.ba" target="_blank" rel='noreferrer noopener' style={{backgroundImage: 'url("media/work/hyalfit.jpg")'}}>
                     <div className="h1-label w10-6">year 2020</div>
                     <h3>Hyalfit preparati</h3>
                     <p>Web design &amp; Graphic design</p>
@@ -204,7 +204,7 @@ class Work extends Component {
                   <div className="dot top right" />
                   <div className="dot bottom left" />
                   <div className="dot bottom right" />
-                  <a className="ref" href="https://allstarcars.ch/" target="_blank" style={{backgroundImage: 'url("media/work/allstarcars.jpg")'}}>
+                  <a className="ref" href="https://allstarcars.ch/" target="_blank" rel='noreferrer noopener' style={{backgroundImage: 'url("media/work/allstarcars.jpg")'}}>
                     <div className="h1-label w10-6">year 2019</div>
                     <h3>Allstar cars</h3>
                     <p>Web design &amp; Graphic design</p>
@@ -215,7 +215,7 @@ class Work extends Component {
                   <div className="dot top right" />
                   <div className="dot bottom left" />
                   <div className="dot bottom right" />
-                  <a className="ref" href="https://louveau-photographe.com/" target="_blank" style={{backgroundImage: 'url("media/work/photo.jpg")'}}>
+                  <a className="ref" href="https://louveau-photographe.com/" target="_blank" rel='noreferrer noopener' style={{backgroundImage: 'url("media/work/photo.jpg")'}}>
                     <div className="h1-label w10-6">year 2020</div>
                     <h3>Louveau Photographe</h3>
                     <p>Web design &amp; Graphic design</p>
@@ -226,7 +226,7 @@ class Work extends Component {
                   <div className="dot top right" />
                   <div className="dot bottom left" />
                   <div className="dot bottom right" />
-                  <a className="ref" href="https://sous-ma-cloche.com/" target="_blank" style={{backgroundImage: 'url("media/work/sousmacloche.jpg")'}}>
+                  <a className="ref" href="https://sous-ma-cloche.com/" target="_blank" rel='noreferrer noopener' style={{backgroundImage: 'url("media/work/sousmacloche.jpg")'}}>
                     <div className="h1-label w10-6">year 2020</div>
                     <h3>Sousmacloche</h3>
                     <p>Web design &amp; Graphic design</p>
@@ -237,7 +237,7 @@ class Work extends Component {
                   <div className="dot top right" />
                   <div className="dot bottom left" />
                   <div className="dot bottom right" />
-                  <a className="ref" href="https://bar-lounge-aixlesbains.com/" target="_blank" style={{backgroundImage: 'url("media/work/lebossbar.jpg")'}}>
+                  <a className="ref" href="https://bar-lounge-aixlesbains.com/" target="_blank" rel='noreferrer noopener' style={{backgroundImage: 'url("media/work/lebossbar.jpg")'}}>
                     <div className="h1-label w10-6">year 2018</div>
                     <h3>Le Boss Bar</h3>
                     <p>Web design &amp; Graphic design</p>
@@ -248,7 +248,7 @@ class Work extends Component {
                   <div className="dot top right" />
                   <div className="dot bottom left" />
                   <div className="dot bottom right" />
-                  <a className="ref" href="https://selfbox.fr" target="_blank" style={{backgroundImage: 'url("media/work/selfbox.jpg")'}}>
+                  <a className="ref" href="https://selfbox.fr" target="_blank" rel='noreferrer noopener' style={{backgroundImage: 'url("media/work/selfbox.jpg")'}}>
                     <div className="h1-label w10-6">year 2018</div>
                     <h3>Self box</h3>
                     <p>Web design &amp; Graphic design</p>
@@ -259,7 +259,7 @@ class Work extends Component {
                   <div className="dot top right" />
                   <div className="dot bottom left" />
                   <div className="dot bottom right" />
-                  <a className="ref" href="https://fenetre-annecy.com/" target="_blank" style={{backgroundImage: 'url("media/work/fenetre.jpg")'}}>
+                  <a className="ref" href="https://fenetre-annecy.com/" target="_blank" rel='noreferrer noopener' style={{backgroundImage: 'url("media/work/fenetre.jpg")'}}>
                     <div className="h1-label w10-6">year 2020</div>
                     <h3>Menuiserie Expert</h3>
                     <p>Web design &amp; Graphic design</p>
@@ -270,7 +270,7 @@ class Work extends Component {
                   <div className="dot top right" />
                   <div className="dot bottom left" />
                   <div className="dot bottom right" />
-                  <a className="ref" href="https://inpe-formation.com/" target="_blank" style={{backgroundImage: 'url("media/work/inpe.jpg")'}}>
+                  <a className="ref" href="https://inpe-formation.com/" target="_blank" rel='noreferrer noopener' style={{backgroundImage: 'url("media/work/inpe.jpg")'}}>
                     <div className="h1-label w10-6">year 2020</div>
                     <h3>InPÉ-Formation</h3>
                     <p>Web design &amp; Graphic design</p>
@@ -281,7 +281,7 @@ class Work extends Component {
                   <div className="dot top right" />
                   <div className="dot bottom left" />
                   <div className="dot bottom right" />
-                  <a className="ref" href="https://gite-aixlesbains.com/" target="_blank" style={{backgroundImage: 'url("media/work/gite.jpg")'}}>
+                  <a className="ref" href="https://gite-aixlesbains.com/" target="_blank" rel='noreferrer noopener' style={{backgroundImage: 'url("media/work/gite.jpg")'}}>
                     <div className="h1-label w10-6">year 2018</div>
                     <h3>Gîte Lou Cabro</h3>
                     <p>Web design &amp; Graphic design</p>
@@ -292,7 +292,7 @@ class Work extends Component {
                   <div className="dot top right" />
                   <div className="dot bottom left" />
                   <div className="dot bottom right" />
-                  <a className="ref" href="https://mac-malerbetrieb.de/" target="_blank" style={{backgroundImage: 'url("media/work/mac.jpg")'}}>
+                  <a className="ref" href="https://mac-malerbetrieb.de/" target="_blank" rel='noreferrer noopener' style={{backgroundImage: 'url("media/work/mac.jpg")'}}>
                     <div className="h1-label w10-6">year 2020</div>
                     <h3>MAC Malerbetrieb</h3>
                     <p>Web design &amp; Graphic design</p>
@@ -303,7 +303,7 @@ class Work extends Component {
                   <div className="dot top right" />
                   <div className="dot bottom left" />
                   <div className="dot bottom right" />
-                  <a className="ref" href="https://daanishop.com/" target="_blank" style={{backgroundImage: 'url("media/work/daani.jpg")'}}>
+                  <a className="ref" href="https://daanishop.com/" target="_blank" rel='noreferrer noopener' style={{backgroundImage: 'url("media/work/daani.jpg")'}}>
                     <div className="h1-label w10-6">year 2019</div>
                     <h3>Daani Baby Shop</h3>
                     <p>Web design &amp; Graphic design</p>
@@ -314,7 +314,7 @@ class Work extends Component {
                   <div className="dot top right" />
                   <div className="dot bottom left" />
                   <div className="dot bottom right" />
-                  <a className="ref" href="http://leadernekretnine.ba" target="_blank" style={{backgroundImage: 'url("media/work/leader.jpg")'}}>
+                  <a className="ref" href="http://leadernekretnine.ba" target="_blank" rel='noreferrer noopener' style={{backgroundImage: 'url("media/work/leader.jpg")'}}>
                     <div className="h1-label w10-6">year 2017</div>
                     <h3>Leader Nekretnine</h3>
                     <p>Web design &amp; Graphic design</p>
@@ -325,7 +325,7 @@ class Work extends Component {
                   <div className="dot top right" />
                   <div className="dot bottom left" />
                   <div className="dot bottom right" />
-                  <a className="ref" href="https://academiecoiffurebeaute.com/u" target="_blank" style={{backgroundImage: 'url("media/work/academie.jpg")'}}>
+                  <a className="ref" href="https://academiecoiffurebeaute.com/u" target="_blank" rel='noreferrer noopener' style={{backgroundImage: 'url("media/work/academie.jpg")'}}>
                     <div className="h1-label w10-6">year 2018</div>
                     <h3>L’Académie Coiffure Beauté</h3>
                     <p>Web design &amp; Graphic design</p>
@@ -336,7 +336,7 @@ class Work extends Component {
                   <div className="dot top right" />
                   <div className="dot bottom left" />
                   <div className="dot bottom right" />
-                  <a className="ref" href="https://restaurant-chinois-annecy.com/" target="_blank" style={{backgroundImage: 'url("media/work/viet.jpg")'}}>
+                  <a className="ref" href="https://restaurant-chinois-annecy.com/" target="_blank" rel='noreferrer noopener' style={{backgroundImage: 'url("media/work/viet.jpg")'}}>
                     <div className="h1-label w10-6">year 2020</div>
                     <h3>Viet Street Food</h3>
                     <p>Web design &amp; Graphic design</p>
@@ -347,7 +347,7 @@ class Work extends Component {
                   <div className="dot top right" />
                   <div className="dot bottom left" />
                   <div className="dot bottom right" />
-                  <a className="ref" href="https://www.asmservices.ba/" target="_blank" style={{backgroundImage: 'url("media/work/asmservices.jpg")'}}>
+                  <a className="ref" href="https://www.asmservices.ba/" target="_blank" rel='noreferrer noopener' style={{backgroundImage: 'url("media/work/asmservices.jpg")'}}>
                     <div className="h1-label w10-6">year 2019</div>
                     <h3>ASM Services</h3>
                     <p>Web design &amp; Graphic design</p>
@@ -358,7 +358,7 @@ class Work extends Component {
                   <div className="dot top right" />
                   <div className="dot bottom left" />
                   <div className="dot bottom right" />
-                  <a className="ref" href="https://elitenekretnine.ba" target="_blank" style={{backgroundImage: 'url("media/work/elite.jpg")'}}>
+                  <a className="ref" href="https://elitenekretnine.ba" target="_blank" rel='noreferrer noopener' style={{backgroundImage: 'url("media/work/elite.jpg")'}}>
                     <div className="h1-label w10-6">year 2016</div>
                     <h3>Elite Nekretnine</h3>
                     <p>Web design &amp; Graphic design</p>
@@ -369,7 +369,7 @@ class Work extends Component {
                   <div className="dot top right" />
                   <div className="dot bottom left" />
                   <div className="dot bottom right" />
-                  <a className="ref" href="http://harisdubica.ch/" target="_blank" style={{backgroundImage: 'url("media/work/harisdubica.jpg")'}}>
+                  <a className="ref" href="http://harisdubica.ch/" target="_blank" rel='noreferrer noopener' style={{backgroundImage: 'url("media/work/harisdubica.jpg")'}}>
                     <div className="h1-label w10-6">year 2016</div>
                     <h3>Haris Dubica</h3>
                     <p>Complete Development</p>
@@ -413,8 +413,8 @@ class Work extends Component {
               <div className="circle" />
               <div className="sites">
                 <ul className="right">
-                  <li><a href="https://www.instagram.com/edizajnstudio/" target="_blank"></a></li>
-                  <li><a href="https://www.facebook.com/edizajnstudio/" target="_blank">龜</a></li>
+                  <li><a href="https://www.instagram.com/edizajnstudio/" target="_blank" rel='noreferrer noopener'></a></li>
+                  <li><a href="https://www.facebook.com/edizajnstudio/" target="_blank" rel='noreferrer noopener'>龜</a></li>
                   {/*<li><a href="https://dribbble.com/" target="_blank">&#xeaa7;</a></li>
                   <li><a href="https://www.behance.net/" target="_blank">&#xbeac;</a></li>*/}
                 </ul>
