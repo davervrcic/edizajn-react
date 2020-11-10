@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Header from "./header";
+
 
 const MainPage = () => {
     return (
@@ -11,22 +11,7 @@ const MainPage = () => {
         <Link to="/addproject">ADD PROJECT</Link>
 
         <div>
-  <meta httpEquiv="content-type" content="text/html;charset=UTF-8" />
-  <meta charSet="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Grafički dizajn, izrada web stranica, razvoj mobilnih aplikacija, internet marketing, seo optimizacija, 2D i 3D projektovanje." />
-  <meta name="keywords" content="internet stranica,  web stranica,  web dizajn,  web redizajn, reklama, reklamiranje, održavanje i podrška, posebna ponuda, akcije, usluge, izrada web stranica cijena, web shop, stranice, web stranice, web izrada, izrada web, web dizajn, hosting i domena, web stranice izrada, webstranica, hosting, html stranica, cms stranica, statična web stranica, dinamična internet stranica, cijena internet stranice, namještaj po mijeri, salon namještaja, web stranice za namještaj, web stranice za agencije za nekretnine, stomatološke ordinacije, doktorske ordinacije" />
-  <meta name="author" content="E-DIZAJN STUDIO" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="E-Dizajn Studio" />
-  <meta property="og:description" content="Grafički dizajn, izrada web stranica, razvoj mobilnih aplikacija, internet marketing, seo optimizacija, 2D i 3D projektovanje." />
-  <meta property="og:url" content="https://www.e-dizajn.com/" />
-  <meta property="og:site_name" content="E-DIZAJN STUDIO" />
-  <meta property="og:image" content="media/share/share.jpg" />
-  <meta property="og:image:width" content={950} />
-  <meta property="og:image:height" content={630} />
-  <meta name="robots" content="index, follow" />
-  <meta name="google-site-verification" content="aFB01AikSNvhTKCSCqclKDpG4RDYQyhYLDz3nB82MuU" />
+  
   <link rel="icon" href="favicon.png" type="image/png" />
   <link rel="stylesheet" type="text/css" href="css/awwwards.css" />
   <link rel="stylesheet" type="text/css" href="css/style.css" />
@@ -156,7 +141,7 @@ const MainPage = () => {
             <p>Complete development</p>
           </a>
         </div>
-        <a className="button black" href="work.html">Show me more</a>
+        <a className="button black" href="work">Show me more</a>
         <div className="work-bg" />
       </article>
     </section>    <div className="bottom-bg-section">

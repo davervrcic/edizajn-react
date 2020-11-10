@@ -1,7 +1,6 @@
-import React, { useState, useEffect, Component } from "react";
-import FileUpload from "./components/FileUpload";
+import React, { Component } from "react";
 import "./App.css";
-import Axios from "axios";
+
 
 import {
   BrowserRouter as Router,
