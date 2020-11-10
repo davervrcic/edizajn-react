@@ -1,135 +1,47 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Component } from "react";
 import FileUpload from "./components/FileUpload";
 import "./App.css";
 import Axios from "axios";
 
-const App = () => {
-  const [projectName, setProjectName] = useState();
-  const [projectYear, setProjectYear] = useState();
-  const [projectUrl, setProjectUrl] = useState();
-  const [projectType, setProjectType] = useState();
-  const [projectImage, setProjectImage] = useState();
-  const [projectsList, setProjectsList] = useState([]);
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Link,
+  Redirect
 
-  useEffect(() => {
-    Axios.get("http://localhost:3001/api/get").then((response) => {
-      setProjectsList(response.data);
-    });
-  }, []);
+} from 'react-router-dom';
 
-  const submitProject = () => {
-    Axios.post("http://localhost:3001/api/insert", {
-      projectName: projectName,
-      projectYear: projectYear,
-      projectUrl: projectUrl,
-      projectType: projectType,
-      projectImage: projectImage,
-    });
+// Pages
 
-    setProjectsList([
-      ...projectsList,
-      {
-        projectName: projectName,
-        projectYear: projectYear,
-        projectUrl: projectUrl,
-        projectType: projectType,
-        projectImage: projectImage,
-      },
-    ]);
-  };
+import MainPage from './pages';
+import AddProject from "./pages/addProject";
+import NotFoundPage from "./pages/404";
+import Work from "./pages/work";
 
-  const deleteProject = (project) => {
-    Axios.delete(`http://localhost:3001/api/delete/${project}`);
-  };
+class App extends Component {
 
-  return (
-    <div className="App">
-      <h3>ADD PROJECT</h3>
-      <div className="form">
-        <label>Project Name:</label>
-        <input
-          type="text"
-          name="projectName"
-          onChange={(e) => {
-            setProjectName(e.target.value);
-          }}
-        ></input>
+  render () {
 
-        <label>Project Year:</label>
-        <input
-          type="text"
-          name="projectYear"
-          onChange={(e) => {
-            setProjectYear(e.target.value);
-          }}
-        ></input>
+  return (  
+    
+    
+    <Router>
 
-        <label>Project Url:</label>
-        <input
-          type="text"
-          name="projectUrl"
-          onChange={(e) => {
-            setProjectUrl(e.target.value);
-          }}
-        ></input>
+      <Switch>
+        <Route exact path="/" component={MainPage} />
+        <Route exact path="/addproject" component={AddProject} />
+        <Route exact path="/work" component={Work} />
+        <Route exact path="/404" component={NotFoundPage} />
+        <Redirect to="/404"/>
+      </Switch>
 
-        <label>Project Type:</label>
-        <input
-          type="text"
-          name="projectType"
-          onChange={(e) => {
-            setProjectType(e.target.value);
-          }}
-        ></input>
+     </Router>
 
-        <label>Project Image:</label>
-        <input
-          type="text"
-          name="projectImage"
-          onChange={(e) => {
-            setProjectImage(e.target.value);
-          }}
-        ></input>
-
-        <div className="border border-primary rounded col-md-6">
-          <div className="container p-4">
-            <h4 className="display-6 text-center mb-4">Image upload</h4>
-
-            <FileUpload />
-          </div>
-          
-        </div>
-
-        <button
-            className="btn btn-success btn-block m-2 col-md-4"
-            onClick={submitProject}
-          >
-            Add Project
-          </button>
-
-          {projectsList.map((val) => {
-            return (
-              <div className="card">
-                <h1>{val.projectName}</h1>
-                <p>{val.projectYear}</p>
-                <p>{val.projectType}</p>
-                <p>{val.projectUrl}</p>
-                <p>{val.projectImage}</p>
-
-                <button
-                  onClick={() => {
-                    deleteProject(val.projectName);
-                  }}
-                >
-                  Delete
-                </button>
-              </div>
-            );
-          })}
-        
-      </div>
-    </div>
+    
   );
-};
 
+}
+}
+  
 export default App;

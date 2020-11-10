@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import FileUpload from "./components/FileUpload";
-import "./App.css";
+import FileUpload from "../components/FileUpload";
+import "../App.css";
 import Axios from "axios";
 
 const AddProject = () => {

@@ -1,0 +1,110 @@
+<svg id="SVG" xmlns="http://www.w3.org/2000/svg" width="2920" height="2201" viewBox="0 0 2920 2201">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+      }
+
+      .cls-1 {
+        stroke: #a09f9f;
+      }
+
+      .cls-2 {
+        stroke: #9f9e9f;
+      }
+    </style>
+  </defs>
+  <g id="Line">
+    <g id="Triangle">
+      <g id="Line-2" data-name="Line">
+        <path id="_1" data-name="1" class="cls-1" d="M1622,1072.86H1195.23L1408.62,645Z"/>
+        <path id="Tvar_1" data-name="Tvar 1" class="cls-2" d="M1022,1181.51l173.67-109.08"/>
+        <path id="Tvar_2" data-name="Tvar 2" class="cls-2" d="M1518.33,1181.09l103.22-108.66"/>
+        <path id="Tvar_3" data-name="Tvar 3" class="cls-2" d="M1270.17,683.623L1408.39,645"/>
+        <path id="_2" data-name="2" class="cls-1" d="M1518.34,1181.52H1022l248.17-497.891Z"/>
+        <path id="_1-2" data-name="1" class="cls-1" d="M2919.41,1569.38l-591.73,341.6-46.63-763.96Z"/>
+        <path id="Tvar_1-2" data-name="Tvar 1" class="cls-2" d="M2174.48,2200.27l153.48-290.24"/>
+        <path id="Tvar_2-2" data-name="Tvar 2" class="cls-2" d="M2862.32,1802.41l56.12-233.26"/>
+        <path id="Tvar_3-2" data-name="Tvar 3" class="cls-2" d="M2120.01,1311.38l160.72-164.18"/>
+        <path id="_2-2" data-name="2" class="cls-1" d="M2862.66,1803l-688.17,397.27-54.47-888.89Z"/>
+        <path id="_1-3" data-name="1" class="cls-1" d="M1039.61,736.814L858.479,652.449,1033.6,513.087Z"/>
+        <path id="Tvar_1-3" data-name="Tvar 1" class="cls-2" d="M763.484,664.312l95.268-11.956"/>
+        <path id="Tvar_2-3" data-name="Tvar 2" class="cls-2" d="M974.219,762.247l65.281-25.7"/>
+        <path id="Tvar_3-3" data-name="Tvar 3" class="cls-2" d="M967.209,502.106l66.3,10.934"/>
+        <path id="_2-3" data-name="2" class="cls-1" d="M974.136,762.429L763.485,664.314l203.725-162.2Z"/>
+        <path id="_1-4" data-name="1" class="cls-1" d="M2810.67,878.854l-451.44-260.66,486.98-322.239Z"/>
+        <path id="Tvar_1-4" data-name="Tvar 1" class="cls-2" d="M2109.65,627.33l250.32-9.315"/>
+        <path id="Tvar_2-4" data-name="Tvar 2" class="cls-2" d="M2634.91,930.025l175.54-51.9"/>
+        <path id="Tvar_3-4" data-name="Tvar 3" class="cls-2" d="M2676.18,252.248l169.8,43.562"/>
+        <path id="_2-4" data-name="2" class="cls-1" d="M2634.66,930.479L2109.65,627.335l566.54-375.079Z"/>
+        <path id="_1-5" data-name="1" class="cls-1" d="M963.552,1556.69L687.487,1446.87l248.13-221.85Z"/>
+        <path id="Tvar_1-5" data-name="Tvar 1" class="cls-2" d="M547.471,1472.58l140.413-25.87"/>
+        <path id="Tvar_2-5" data-name="Tvar 2" class="cls-2" d="M868.641,1600.03l94.728-43.73"/>
+        <path id="Tvar_3-5" data-name="Tvar 3" class="cls-2" d="M836.121,1214.38l99.349,10.58"/>
+        <path id="_2-5" data-name="2" class="cls-1" d="M868.534,1600.31l-321.06-127.72,288.649-258.21Z"/>
+        <path id="_1-6" data-name="1" class="cls-1" d="M2016.05,1160.75l-203.36,214.28-113.12-311.04Z"/>
+        <path id="Tvar_1-6" data-name="Tvar 1" class="cls-2" d="M1784.7,1513.78l27.99-139.18"/>
+        <path id="Tvar_2-6" data-name="Tvar 2" class="cls-2" d="M2020.99,1264.38l-5.37-103.61"/>
+        <path id="Tvar_3-6" data-name="Tvar 3" class="cls-2" d="M1652.99,1151.91l46.47-87.81"/>
+        <path id="_2-6" data-name="2" class="cls-1" d="M2021.21,1264.58l-236.51,249.2-131.71-361.87Z"/>
+        <path id="_1-7" data-name="1" class="cls-1" d="M1323.9,1530.43l-197.19-138.75,237.71-128.3Z"/>
+        <path id="Tvar_1-7" data-name="Tvar 1" class="cls-2" d="M1011.34,1385.56l115.71,6.07"/>
+        <path id="Tvar_2-7" data-name="Tvar 2" class="cls-2" d="M1240.8,1546.73l83.02-16.65"/>
+        <path id="Tvar_3-7" data-name="Tvar 3" class="cls-2" d="M1287.89,1236.22l76.42,27.09"/>
+        <path id="_2-7" data-name="2" class="cls-1" d="M1240.67,1546.93l-229.33-161.36,276.55-149.35Z"/>
+        <path id="_1-8" data-name="1" class="cls-1" d="M1172.28,680.54l-42.51-17.593,0.24,43.52Z"/>
+        <path id="Tvar_1-8" data-name="Tvar 1" class="cls-2" d="M1117.85,646.988L1129.8,663"/>
+        <path id="Tvar_2-8" data-name="Tvar 2" class="cls-2" d="M1167.27,667.482l4.95,13.074"/>
+        <path id="Tvar_3-8" data-name="Tvar 3" class="cls-2" d="M1118.12,697.625l11.87,8.833"/>
+        <path id="_2-8" data-name="2" class="cls-1" d="M1167.29,667.448l-49.44-20.46,0.27,50.637Z"/>
+        <path id="_1-9" data-name="1" class="cls-1" d="M2113.59,986.773l-319.58-85.63,245.64-277.569Z"/>
+        <path id="Tvar_1-9" data-name="Tvar 1" class="cls-2" d="M1642.49,947.752l151.94-46.839"/>
+        <path id="Tvar_2-9" data-name="Tvar 2" class="cls-2" d="M2014.24,1047.02l99.09-60.657"/>
+        <path id="Tvar_3-9" data-name="Tvar 3" class="cls-2" d="M1928.22,624.716l111.26-1.191"/>
+        <path id="_2-9" data-name="2" class="cls-1" d="M2014.16,1047.34L1642.5,947.754,1928.23,624.72Z"/>
+        <path id="_1-10" data-name="1" class="cls-1" d="M698.754,1178.17l-48.877-294.6L1000.31,990.858Z"/>
+        <path id="Tvar_1-10" data-name="Tvar 1" class="cls-2" d="M547.246,774.149L650.252,883.833"/>
+        <path id="Tvar_2-10" data-name="Tvar 2" class="cls-2" d="M604.413,1116.73l94.614,61.08"/>
+        <path id="Tvar_3-10" data-name="Tvar 3" class="cls-2" d="M955.027,898.9l45.263,91.8"/>
+        <path id="_2-10" data-name="2" class="cls-1" d="M604.089,1116.77L547.245,774.152,955.023,898.9Z"/>
+        <path id="_1-11" data-name="1" class="cls-1" d="M1547.73,1280.53l-43.08-18.24,37.9-31Z"/>
+        <path id="Tvar_1-11" data-name="Tvar 1" class="cls-2" d="M1483.01,1265.07l21.7-2.8"/>
+        <path id="Tvar_2-11" data-name="Tvar 2" class="cls-2" d="M1533.12,1286.25l14.58-5.78"/>
+        <path id="Tvar_3-11" data-name="Tvar 3" class="cls-2" d="M1527.1,1228.99l15.43,2.29"/>
+        <path id="_2-11" data-name="2" class="cls-1" d="M1533.11,1286.29l-50.1-21.22L1527.1,1229Z"/>
+        <path id="_1-12" data-name="1" class="cls-1" d="M1246.39,502.371l352.84-293.039L1716.44,709.4Z"/>
+        <path id="Tvar_1-12" data-name="Tvar 1" class="cls-2" d="M1667.88,0.6L1599.16,209.99"/>
+        <path id="Tvar_2-12" data-name="Tvar 2" class="cls-2" d="M1257.82,341.751l-10.76,160.662"/>
+        <path id="Tvar_3-12" data-name="Tvar 3" class="cls-2" d="M1804.4,582.422l-87.77,126.824"/>
+        <path id="_2-12" data-name="2" class="cls-1" d="M1257.52,341.4L1667.88,0.6l136.51,581.821Z"/>
+        <path id="_1-13" data-name="1" class="cls-1" d="M663.579,630.989l-43.943-75.873,97.613-6.228Z"/>
+        <path id="Tvar_1-13" data-name="Tvar 1" class="cls-2" d="M582.59,535.536l37.168,19.615"/>
+        <path id="Tvar_2-13" data-name="Tvar 2" class="cls-2" d="M633.77,623.731l29.838,7.133"/>
+        <path id="Tvar_3-13" data-name="Tvar 3" class="cls-2" d="M696.165,528.262l21.061,20.585"/>
+        <path id="_2-13" data-name="2" class="cls-1" d="M633.7,623.775L582.59,535.537l113.575-7.274Z"/>
+        <path id="_1-14" data-name="1" class="cls-1" d="M441.031,336.943L203.537,473.813l254.279,169.3Z"/>
+        <path id="Tvar_1-14" data-name="Tvar 1" class="cls-2" d="M72.718,468.992l131.2,4.915"/>
+        <path id="Tvar_2-14" data-name="Tvar 2" class="cls-2" d="M349.055,310.05l91.859,27.275"/>
+        <path id="Tvar_3-14" data-name="Tvar 3" class="cls-2" d="M368.537,666.053l89.153-22.866"/>
+        <path id="_2-14" data-name="2" class="cls-1" d="M348.922,309.812L72.72,468.99,368.538,666.049Z"/>
+        <path id="_1-15" data-name="1" class="cls-1" d="M370.6,899.2L293.255,1032.78l171.67,10.88Z"/>
+        <path id="Tvar_1-15" data-name="Tvar 1" class="cls-2" d="M228.085,1067.27l65.383-34.55"/>
+        <path id="Tvar_2-15" data-name="Tvar 2" class="cls-2" d="M318.167,912l52.483-12.579"/>
+        <path id="Tvar_3-15" data-name="Tvar 3" class="cls-2" d="M427.828,1079.99l37.057-36.25"/>
+        <path id="_2-15" data-name="2" class="cls-1" d="M318.035,911.917l-89.95,155.353,199.743,12.71Z"/>
+        <path id="_1-16" data-name="1" class="cls-1" d="M527.96,1230.01l-0.087,70.83,70.242-35.06Z"/>
+        <path id="Tvar_1-16" data-name="Tvar 1" class="cls-2" d="M510.01,1329.49l17.934-28.73"/>
+        <path id="Tvar_2-16" data-name="Tvar 2" class="cls-2" d="M510.181,1247.12l17.849-17.04"/>
+        <path id="Tvar_3-16" data-name="Tvar 3" class="cls-2" d="M591.751,1288.72l6.365-22.91"/>
+        <path id="_2-16" data-name="2" class="cls-1" d="M510.111,1247.12l-0.1,82.37,81.74-40.77Z"/>
+        <path id="_1-17" data-name="1" class="cls-1" d="M334.489,1207.76L118.1,1317.01l229.3,187.12Z"/>
+        <path id="Tvar_1-17" data-name="Tvar 1" class="cls-2" d="M-0.488,1299.96l118.936,17.17"/>
+        <path id="Tvar_2-17" data-name="Tvar 2" class="cls-2" d="M251.289,1173.14l83.092,34.98"/>
+        <path id="Tvar_3-17" data-name="Tvar 3" class="cls-2" d="M266.277,1517.75l81.015-13.56"/>
+        <path id="_2-17" data-name="2" class="cls-1" d="M251.17,1172.9L-0.486,1299.95l266.764,217.8Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
