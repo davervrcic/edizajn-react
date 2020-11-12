@@ -6,6 +6,8 @@ import CreateProject from './CreateProject';
 
 const FileUpload = () => {
 
+    
+
     const [file, setFile] = useState('');
     const [filename, setFilename] = useState('Choose file');
     const [uploadedFile, setUploadedFile] = useState({});
@@ -52,7 +54,8 @@ const FileUpload = () => {
         }
 
     };
-    
+
+        
     return (
 
        
@@ -81,9 +84,12 @@ const FileUpload = () => {
                 <h3 className="text-center">{ uploadedFile.fileName}</h3>
                 <img style={{ width: '100%' }} src= { uploadedFile.filePath } alt=''/>
                 </div>
-    </div> ): null} */}               
+    </div> ): null} */}    
+
             
         </Fragment>
+
+        
     )
 }
 

@@ -4,7 +4,7 @@ import FileUpload from './FileUpload';
 import "../App.css";
 import Axios from "axios";
 
-const CreateProject = (props) => {
+const CreateProject = () => {
   const [projectName, setProjectName] = useState();
   const [projectYear, setProjectYear] = useState();
   const [projectUrl, setProjectUrl] = useState();
@@ -46,7 +46,9 @@ const CreateProject = (props) => {
                   <div className="dot top right" />
                   <div className="dot bottom left" />
                   <div className="dot bottom right" />
-                  <a className="ref" href={val.projectUrl} target="_blank" rel='noreferrer noopener' style={{backgroundImage: 'url("media/work/'+props.filename+'")'}}>
+                  <a className="ref" href={val.projectUrl} target="_blank" rel='noreferrer noopener' 
+                                        style={{backgroundImage: 'url("media/work/'+val.filename+'")'}}>
+
                     <div className="h1-label w10-6">Year {val.projectYear}</div>
                     <h3>{val.projectName}</h3>
                     <p>{val.projectType}</p>
