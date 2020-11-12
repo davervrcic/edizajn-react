@@ -45,10 +45,14 @@ const AddProject = () => {
 
   return (
 
-        <div className="App">
-          
-      <h3>ADD PROJECT</h3>
+      <div className="App">        
+      
+
       <div className="form">
+      <div className="naslov">
+        <h1>ADD PROJECT</h1>
+      </div>
+
         <label>Project Name:</label>
         <input
           type="text"
@@ -94,7 +98,7 @@ const AddProject = () => {
           }}
         ></input>*/}
 
-        <div className="border border-primary rounded col-md-6">
+        <div className="border border-primary rounded col-md-6 mt-3">
           <div className="container p-4">
             <h4 className="display-6 text-center mb-4">Image upload</h4>
 
@@ -104,7 +108,7 @@ const AddProject = () => {
         </div>
 
         <button
-            className="btn btn-success btn-block m-2 col-md-4"
+            className="btn btn-success btn-block m-4 col-md-4"
             onClick={submitProject}
           >
             Add Project

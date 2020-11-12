@@ -33,13 +33,10 @@ const CreateProject = () => {
   };
   
   return (
-    <div className="App">  
-    
-            
+    <div className="App">              
 
           {projectsList.map((val) => {
-            return (            
-                
+            return (                     
 
         <div className="border hidden">
                   <div className="dot top left" />

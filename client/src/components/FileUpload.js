@@ -4,9 +4,7 @@ import Message from './Message';
 import Progress from './Progress';
 import CreateProject from './CreateProject';
 
-const FileUpload = () => {
-
-    
+const FileUpload = () => {    
 
     const [file, setFile] = useState('');
     const [filename, setFilename] = useState('Choose file');
@@ -54,18 +52,13 @@ const FileUpload = () => {
         }
 
     };
-
         
-    return (
+    return (       
 
-       
-
-        <Fragment>
-
-       
+        <Fragment>       
                          
             <form onSubmit={onSubmit} >
-                     <div className="custom-file mb-4">
+                     <div className="custom-file mb-4 mt-4">
                         <input type="file" className="custom-file-input" id="customFile" onChange={onChange}/>
                         <label className="custom-file-label" htmlFor="customFile">{filename}</label>                        
                     </div>
@@ -74,7 +67,7 @@ const FileUpload = () => {
 
                     {message ? <Message msg={message}/> : null}
 
-                    <input type="submit" value="Upload File" className="btn btn-primary mt-1" style={{width: '50%'}}></input>
+                    <input type="submit" value="Upload File" className="btn btn-primary mt-3" style={{width: '50%'}}></input>
             </form>
 
             {/* SHOW UPLOADED IMAGE */}
@@ -85,10 +78,8 @@ const FileUpload = () => {
                 <img style={{ width: '100%' }} src= { uploadedFile.filePath } alt=''/>
                 </div>
     </div> ): null} */}    
-
             
         </Fragment>
-
         
     )
 }
