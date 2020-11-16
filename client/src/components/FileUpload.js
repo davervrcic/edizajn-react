@@ -2,7 +2,7 @@ import React, { Fragment, useState } from 'react';
 import axios from 'axios';
 import Message from './Message';
 import Progress from './Progress';
-import PropTypes from 'prop-types';
+
 
 
 const FileUpload = () => {    
@@ -11,12 +11,12 @@ const FileUpload = () => {
     const [filename, setFilename] = useState('Choose file');
     const [uploadedFile, setUploadedFile] = useState({});
     const [message, setMessage] = useState('');
-    const [uploadPercentage, setUploadPercentage] = useState(0);
+    const [uploadPercentage, setUploadPercentage] = useState(0);     
     
     
     const onChange = e => {
         setFile(e.target.files[0]);
-        setFilename(e.target.files[0].name);
+        setFilename(e.target.files[0].name);        
     }    
 
     const onSubmit = async e => {
@@ -42,7 +42,9 @@ const FileUpload = () => {
 
             setUploadedFile({ fileName, filePath });
 
-            setMessage('File Uploaded');
+            setMessage('File Uploaded');           
+
+            
             
 
         } catch(err) {
@@ -53,26 +55,37 @@ const FileUpload = () => {
             }
         }
 
+         
+
     };
         
     return (       
 
-        <Fragment>       
+        <Fragment>    
+
+            
                          
             <form onSubmit={onSubmit} >
                      <div className="custom-file mb-4 mt-4">
                         <input type="file" className="custom-file-input" id="customFile" onChange={onChange}/>
                         <label className="custom-file-label" htmlFor="customFile">{filename}</label>                    
-                    </div>
+                    </div>   
 
                     
+
+                      <addProject customFileText={uploadedFile.fileName}/>            
+
                     <Progress percentage={uploadPercentage}/>
 
                     {message ? <Message msg={message}/> : null}
 
                     <input type="submit" value="Upload File" className="btn btn-primary mt-3" style={{width: '50%'}}></input>
-            </form>          
 
+                    
+            </form> 
+            {console.log(uploadedFile.fileName)}
+            
+        
             {/* SHOW UPLOADED IMAGE */}
 
            {/* {uploadedFile ? ( <div className="row mt-5">

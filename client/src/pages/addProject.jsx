@@ -40,6 +40,7 @@ const AddProject = () => {
     ]);   
 
   }; 
+  
  
   const deleteProject = (project) => {
     Axios.delete(`http://localhost:3001/api/delete/${project}`);
@@ -89,14 +90,14 @@ const AddProject = () => {
           }}
         ></input>              
 
-        {/*<label>Project Image:</label>
+        <label>Project Image: </label>
         <input
           type="text"
           name="projectImage"
           onChange={(e) => {
             setProjectImage(e.target.value);
           }}
-        ></input>*/}
+        ></input>
 
         <div className="border border-primary rounded col-md-6 mt-3">
           <div className="container p-4">
