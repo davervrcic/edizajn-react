@@ -18,13 +18,14 @@ import AddProject from "./pages/addProject";
 import NotFoundPage from "./pages/404";
 import Work from "./pages/work";
 
+
 class App extends Component {
+  
 
-  render () {
+  render () {    
 
-  return (  
-    
-    
+  return (      
+  
     <Router>
 
       <Switch>
@@ -36,7 +37,6 @@ class App extends Component {
       </Switch>
 
      </Router>
-
     
   );
 

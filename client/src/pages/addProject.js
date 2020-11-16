@@ -12,6 +12,7 @@ const AddProject = () => {
   const [projectImage, setProjectImage] = useState();
   const [projectsList, setProjectsList] = useState([]);
 
+  
   useEffect(() => {
     Axios.get("http://localhost:3001/api/get").then((response) => {
       setProjectsList(response.data);
@@ -36,18 +37,17 @@ const AddProject = () => {
         projectType: projectType,
         projectImage: projectImage,
       },
-    ]);
-  };
+    ]);   
 
+  }; 
+ 
   const deleteProject = (project) => {
     Axios.delete(`http://localhost:3001/api/delete/${project}`);
   };
 
-  return (
+  return (    
 
-      <div className="App">        
-      
-
+      <div className="App">   
       <div className="form">
       <div className="naslov">
         <h1>ADD PROJECT</h1>
@@ -87,7 +87,7 @@ const AddProject = () => {
           onChange={(e) => {
             setProjectType(e.target.value);
           }}
-        ></input>
+        ></input>              
 
         {/*<label>Project Image:</label>
         <input
@@ -103,20 +103,18 @@ const AddProject = () => {
             <h4 className="display-6 text-center mb-4">Image upload</h4>
 
             <FileUpload />
-          </div>
-          
+          </div>          
         </div>
 
         <button
             className="btn btn-success btn-block m-4 col-md-4"
-            onClick={submitProject}
-          >
-            Add Project
-          </button>
+            onClick={submitProject}> Add Project
+        </button>
 
           {projectsList.map((val) => {
             return (
               <div className="card">
+                
                 <h1>{val.projectName}</h1>
                 <p>{val.projectYear}</p>
                 <p>{val.projectType}</p>
@@ -124,11 +122,7 @@ const AddProject = () => {
                 <p>{val.projectImage}</p>
 
                 <button
-                  onClick={() => {
-                    deleteProject(val.projectName);
-                  }}
-                >
-                  Delete
+                  onClick={() => {deleteProject(val.projectName);}}>Delete
                 </button>
               </div>
             );

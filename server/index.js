@@ -54,7 +54,7 @@ app.post("/api/insert", (req,res)=> {
     const projectUrl = req.body.projectUrl;
     const projectImage = req.body.projectImage;
 
-   const sqlInsert = "INSERT INTO projects (projectName, projectYear, projectType, projecUrl, projectImage ) VALUES (?,?,?,?,?)";
+   const sqlInsert = "INSERT INTO projects (projectName, projectYear, projectType, projectUrl, projectImage ) VALUES (?,?,?,?,?)";
    db.query(sqlInsert, [projectName, projectYear, projectType, projectUrl, projectImage], (err, result)=> {
        console.log(err);
    });
