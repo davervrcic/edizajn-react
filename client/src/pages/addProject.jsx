@@ -3,7 +3,6 @@ import FileUpload from "../components/FileUpload";
 import "../App.css";
 import Axios from "axios";
 
-
 const AddProject = () => {
   const [projectName, setProjectName] = useState();
   const [projectYear, setProjectYear] = useState();
@@ -12,7 +11,7 @@ const AddProject = () => {
   const [projectImage, setProjectImage] = useState();
   const [projectsList, setProjectsList] = useState([]);
 
-  
+
   useEffect(() => {
     Axios.get("http://localhost:3001/api/get").then((response) => {
       setProjectsList(response.data);
@@ -37,22 +36,19 @@ const AddProject = () => {
         projectType: projectType,
         projectImage: projectImage,
       },
-    ]);   
+    ]);
+  };
 
-  }; 
-  
- 
   const deleteProject = (project) => {
     Axios.delete(`http://localhost:3001/api/delete/${project}`);
   };
 
-  return (    
-
-      <div className="App">   
+  return (
+    <div className="App">
       <div className="form">
-      <div className="naslov">
-        <h1>ADD PROJECT</h1>
-      </div>
+        <div className="naslov">
+          <h1>ADD PROJECT</h1>
+        </div>        
 
         <label>Project Name:</label>
         <input
@@ -88,47 +84,54 @@ const AddProject = () => {
           onChange={(e) => {
             setProjectType(e.target.value);
           }}
-        ></input>              
+        ></input>
 
-        <label>Project Image: </label>
+        <p>Daver: {projectImage}</p>
+
+        {/*<label>Project Image: </label>
         <input
           type="text"
           name="projectImage"
           onChange={(e) => {
             setProjectImage(e.target.value);
           }}
-        ></input>
+        ></input>*/}
 
         <div className="border border-primary rounded col-md-6 mt-3">
           <div className="container p-4">
             <h4 className="display-6 text-center mb-4">Image upload</h4>
 
             <FileUpload />
-          </div>          
+            
+          </div>
         </div>
 
         <button
-            className="btn btn-success btn-block m-4 col-md-4"
-            onClick={submitProject}> Add Project
+          className="btn btn-success btn-block m-4 col-md-4"
+          onClick={submitProject}
+        >       
+          Add Project
         </button>
 
-          {projectsList.map((val) => {
-            return (
-              <div className="card">
-                
-                <h1>{val.projectName}</h1>
-                <p>{val.projectYear}</p>
-                <p>{val.projectType}</p>
-                <p>{val.projectUrl}</p>
-                <p>{val.projectImage}</p>
+        {projectsList.map((val) => {
+          return (
+            <div className="card">
+              <h1>{val.projectName}</h1>
+              <p>{val.projectYear}</p>
+              <p>{val.projectType}</p>
+              <p>{val.projectUrl}</p>
+              <p>{val.projectImage}</p>
 
-                <button
-                  onClick={() => {deleteProject(val.projectName);}}>Delete
-                </button>
-              </div>
-            );
-          })}
-        
+              <button className="btn btn-danger"
+                onClick={() => {
+                  deleteProject(val.projectName);
+                }}
+              >
+                Delete
+              </button>
+            </div>
+          );
+        })}
       </div>
     </div>
   );

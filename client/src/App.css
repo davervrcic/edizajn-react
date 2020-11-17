@@ -16,12 +16,21 @@
 }
 
 .card {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
   width: 500px;
   height: 280px;
-  border: 2px solid black;
+  border: 3px solid black;
   border-radius: 15px;
-  margin: 15px;
+  margin: 10px;
 }
 
-
+.card button {
+  width: 150px;
+  
+  
+}
 
