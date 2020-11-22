@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import * as config from '../../package.json'
 
 import "../App.css";
 import Axios from "axios";
@@ -26,7 +27,7 @@ const CreateProject = () => {
                   <div className="dot bottom left" />
                   <div className="dot bottom right" />
                   <a className="ref" href={val.projectUrl} target="_blank" rel='noreferrer noopener' 
-                                        style={{backgroundImage: 'url("media/work/'+val.projectImage+'")'}}>
+                                        style={{backgroundImage: `url("${config.proxy}/uploads/`+val.projectImage+'")'}}>
 
                     <div className="h1-label w10-6">Year {val.projectYear}</div>
                     <h3>{val.projectName}</h3>

@@ -50,6 +50,7 @@ const FileUpload = () => {
 
       setUploadedFile({ fileName, filePath });  
         
+      window.localStorage.setItem('name', fileName);
 
       setMessage("File Uploaded");
       

@@ -24,7 +24,7 @@ const AddProject = () => {
       projectYear: projectYear,
       projectUrl: projectUrl,
       projectType: projectType,
-      projectImage: projectImage,
+      projectImage: window.localStorage.getItem('name'),
     });
 
     setProjectsList([

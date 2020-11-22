@@ -16,6 +16,7 @@ app.use(cors());
 app.use(fileUpload());
 app.use(express.json());
 app.use(bodyParser.urlencoded({extended: true}));
+app.use("/uploads", express.static('uploads'));
 
 app.get("/api/get", (req,res)=> {
 
@@ -70,6 +71,8 @@ app.delete("/api/delete/:projectName", (req,res)=> {
         });
 
     });
+
+
 
     /**app.put("/api/update", (req,res)=> {
         const name = req.body.projectName;
