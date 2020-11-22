@@ -43,6 +43,8 @@ const AddProject = () => {
     Axios.delete(`http://localhost:3001/api/delete/${project}`);
   };
 
+  
+
   return (
     <div className="App">
       <div className="form">

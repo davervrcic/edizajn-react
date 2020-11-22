@@ -3,6 +3,7 @@ import axios from "axios";
 import Message from "./Message";
 import Progress from "./Progress";
 
+
 const FileUpload = () => {
   const [file, setFile] = useState("");
   const [filename, setFilename] = useState("Choose file");
@@ -11,9 +12,11 @@ const FileUpload = () => {
   const [uploadPercentage, setUploadPercentage] = useState(0);
   
 
+
   const onChange = (e) => {
     setFile(e.target.files[0]);
     setFilename(e.target.files[0].name);
+    
   };
   
 
@@ -38,16 +41,18 @@ const FileUpload = () => {
             );
 
             // Clear Percentage
-            setTimeout(() => setUploadPercentage(0), 10000);
+            setTimeout(() => setUploadPercentage(0), 6000);
           },
         }
       );
 
       const { fileName, filePath } = res.data;
 
-      setUploadedFile({ fileName, filePath });
+      setUploadedFile({ fileName, filePath });  
+        
 
       setMessage("File Uploaded");
+      
     } catch (err) {
       if (err.response.status === 500) {
         setMessage("problem with a server");
@@ -58,9 +63,8 @@ const FileUpload = () => {
   };
 
   
-  return (
+  return (    
 
-    
     <Fragment>
       <form onSubmit={onSubmit}>
         <div className="custom-file mb-4 mt-4">
@@ -75,8 +79,7 @@ const FileUpload = () => {
           </label>
         </div>
 
-       
-
+        
         <Progress percentage={uploadPercentage} />
 
         {message ? <Message msg={message} /> : null}
@@ -88,6 +91,8 @@ const FileUpload = () => {
           style={{ width: "50%" }}
         ></input>
       </form>
+
+      
 
       {/* SHOW UPLOADED IMAGE */}
 
