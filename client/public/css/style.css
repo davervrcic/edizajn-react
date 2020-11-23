@@ -60,6 +60,7 @@ header {
   text-transform: uppercase;
   padding: 0 2.5em;
   height: 0;
+  
 }
 header .hamburger-ico {
   display: none;
@@ -246,10 +247,12 @@ header nav ul li a {
   position: relative;
   transition: .2s;
   cursor: pointer;
+  
 }
 header nav ul li span::after,
 header nav ul li a::after {
   content: '';
+  
   left: 0;
   bottom: 0;
   width: 100%;
@@ -262,15 +265,24 @@ header nav ul li a::after {
   transition: .25s;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
+  
 }
 header.dark nav ul li span::after {
   border-color: #6d6d6d;
+}
+
+header nav ul li a:hover {
+  text-decoration: none!important;
+
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
 }
 header nav ul li a:hover::after {
   -webkit-transform: translateX(0);
   -moz-transform: translateX(0);
   -ms-transform: translateX(0);
   transform: translateX(0);
+  
 }
 header nav ul li span.lang {
   padding-right: 1em;
